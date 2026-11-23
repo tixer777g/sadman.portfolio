@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Sadman | Professional Discord Developer & Website Developer</title>
+  <meta name="title" content="Sadman | Professional Discord Developer & Website Developer" />
+  <meta name="description" content="Hello, I am Sadman. Professional Discord Developer and Website Developer crafting modern, high-performance web applications and automated Discord ecosystems." />
+  <meta name="keywords" content="Sadman, Discord Developer, Website Developer, Web Developer, Discord Bot Developer, UI/UX Designer, Frontend Developer, Portfolio" />
+  <meta name="author" content="Sadman" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#060709" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sadman.pro/" />
+  <meta property="og:title" content="Sadman | Professional Discord Developer & Website Developer" />
+  <meta property="og:description" content="Hello, I am Sadman. Professional Discord Developer and Website Developer creating sleek, modern websites and custom Discord solutions." />
+  <meta property="og:image" content="assets/avatar.jpg" />
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Sadman | Professional Discord Developer & Website Developer" />
+  <meta property="twitter:description" content="Hello, I am Sadman. Professional Discord Developer and Website Developer creating sleek, modern websites and custom Discord solutions." />
+  <meta property="twitter:image" content="assets/avatar.jpg" />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Structured Data (JSON-LD) for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sadman",
+    "jobTitle": ["Discord Developer", "Website Developer"],
+    "description": "Professional Discord Developer and Website Developer creating modern, high-performance web applications and thriving Discord communities.",
+    "url": "https://sadman.pro",
+    "image": "assets/avatar.jpg",
+    "knowsAbout": [
+      "Discord Bot Development",
+      "Discord API",
+      "Web Development",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "UI/UX Design",
+      "Community Management"
+    ],
+    "sameAs": [
+      "https://www.youtube.com/@tixerBro",
+      "https://www.facebook.com/sadman.tixer",
+      "https://discord.gg/EbgRzpbsj3"
+    ]
+  }
+  </script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="black-glass-theme">
+
+  <!-- Ambient Glass Light Spheres -->
+  <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-center-purple" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-right" aria-hidden="true"></div>
+
+  <!-- Outer Glass Frame (1:1 Reference Studio Canvas) -->
+  <div class="studio-frame-wrapper">
+    <div class="glass-canvas">
+      
+      <!-- Top Decorative Accent Crescent (from Reference) -->
+      <div class="top-accent-crescent" aria-hidden="true"></div>
+
+      <!-- Navigation Header -->
+      <header class="site-header" role="banner">
+        <a href="#home" class="logo" aria-label="Sadman Portfolio Home">
+          <span class="logo-orb"></span>
+          <span class="logo-name">Sadman<span>.dev</span></span>
+        </a>
+
+        <nav class="glass-nav" id="mainNav" role="navigation" aria-label="Main Navigation">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#contact" class="btn-glass-contact">Contact Me</a>
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </header>
+
+      <!-- Main Landmark -->
+      <main id="main-content">
+
+        <!-- ==================== HERO SECTION ==================== -->
+        <section class="hero-section" id="home" aria-label="Introduction and Overview">
+          <div class="hero-grid">
+            
+            <!-- Left Hero Content -->
+            <div class="hero-left-content">
+              
+              <!-- Active Availability & Client Search Badge -->
+              <div class="hiring-status-wrap">
+                <div class="hiring-status-pill">
+                  <span class="live-pulse-green"></span>
+                  <span class="hiring-pill-text">Finding Discord client and web client</span>
+                </div>
+              </div>
+
+              <!-- Greeting & Headline Area -->
+              <div class="headline-block">
+                <h1 class="main-title">
+                  <span class="title-line-1">Hello .</span>
+                  <span class="title-line-2">
+                    <span class="purple-orb" aria-hidden="true"></span>
+                    <span class="purple-bar" aria-hidden="true"></span>
+                    <span class="lead-i-am">I am</span>
+                  </span>
+                  <span class="title-line-3 text-glow">Sadman</span>
+                </h1>
+
+                <!-- Rotating Circular Experience Stamp (from Reference) -->
+                <div class="experience-stamp-box" aria-label="5 Years Experience Badge">
+                  <svg viewBox="0 0 100 100" class="rotating-text-svg" aria-hidden="true">
+                    <path id="stampCirclePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="none" />
+                    <text class="stamp-svg-text">
+                      <textPath href="#stampCirclePath">
+                        • 5 YEARS • DISCORD DEVELOPER • WEBSITE DEVELOPER •
+                      </textPath>
+                    </text>
+                  </svg>
+                  <div class="stamp-inner-disc">
+                    <span class="stamp-num">5</span>
+                    <span class="stamp-unit">Years</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Required Subtitle Text -->
+              <h2 class="hero-subhead">
+                I am a <span class="highlight-purple">Professional Discord Developer</span> and <span class="highlight-cyan">Website Developer</span>
+              </h2>
+
+              <p class="hero-paragraph">
+                Co-Founder at <strong>TEAM FS</strong>. Creating bold &amp; brave digital solutions — from scalable community infrastructure to ultra-responsive, glassy web applications that convert.
+              </p>
+
+              <!-- CTA Buttons -->
+              <div class="hero-cta-group">
+                <a href="#contact" class="btn btn-hire">
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                  <span>Hire Me</span>
+                </a>
+                <a href="#portfolio" class="link-portfolio">
+                  <span>See Experience &amp; Portfolio</span>
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+
+              <!-- Trusted Clients & Platforms Bar (from Reference) -->
+              <div class="clients-banner" aria-label="Platforms and Technologies">
+                <div class="clients-label-row">
+                  <span>Affiliated with &amp; Platforms</span>
+                  <span class="client-accent-line" aria-hidden="true"></span>
+                </div>
+
+                <div class="glass-pill-strip">
+                  <a href="https://discord.gg/EbgRzpbsj3" target="_blank" rel="noopener noreferrer" class="platform-chip chip-teamfs link-chip" title="Join Official Team FS Discord Server">
+                    <img src="assets/team-fs.jpg" alt="TEAM FS" class="mini-chip-img" width="22" height="22" />
+                    <span class="teamfs-brand">TEAM FS</span>
+                  </a>
+                  <a href="https://discord.gg/EbgRzpbsj3" target="_blank" rel="noopener noreferrer" class="platform-chip chip-discord link-chip" title="Join Official Team FS Discord Server">
+                    <i class="fa-brands fa-discord" aria-hidden="true"></i> <strong>Discord</strong>
+                  </a>
+                  <a href="https://www.youtube.com/@tixerBro" target="_blank" rel="noopener noreferrer" class="platform-chip chip-youtube link-chip" title="YouTube Channel (@tixerBro)">
+                    <i class="fa-brands fa-youtube" style="color: #ef4444;" aria-hidden="true"></i> <strong>YouTube</strong>
+                  </a>
+                  <a href="https://www.facebook.com/sadman.tixer" target="_blank" rel="noopener noreferrer" class="platform-chip chip-facebook link-chip" title="Facebook Profile (sadman.tixer)">
+                    <i class="fa-brands fa-facebook-f" style="color: #3b82f6;" aria-hidden="true"></i> <strong>Facebook</strong>
+                  </a>
+                  <div class="platform-chip chip-fiverr">
+                    <strong>fiverr</strong><span>.</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Right Hero Visual Stage -->
+            <div class="hero-right-stage" aria-hidden="true">
+              <div class="stage-container">
+                
+                <!-- Giant Purple Typography (UI / DEV Backdrop from Reference) -->
+                <div class="giant-bg-letters">
+                  <span class="letter-u">U</span>
+                  <span class="letter-i">I</span>
+                </div>
+
+                <!-- Vertical Line & Rotated Status Text -->
+                <div class="vertical-status-tag">
+                  <span class="v-line"></span>
+                  <span class="v-text">BECOME A — PRO DEVELOPER</span>
+                </div>
+
+                <!-- Wavy Hand-Drawn Squiggle Vector -->
+                <svg class="hand-drawn-squiggle-path" viewBox="0 0 320 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M 40 50 
+                           C 140 100, 10 170, 100 250 
+                           C 190 330, 30 410, 120 490 
+                           C 190 550, 80 590, 140 630" 
+                        stroke="rgba(255, 255, 255, 0.75)" 
+                        stroke-width="3" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" />
+                </svg>
+
+                <!-- Avatar Character Card Container -->
+                <div class="avatar-glass-card" id="interactiveCard">
+                  <div class="glass-reflection"></div>
+                  <div class="avatar-img-wrap">
+                    <img src="assets/avatar.jpg" alt="Sadman - Professional Discord Developer and Website Developer avatar" class="avatar-photo" width="300" height="380" loading="eager" />
+                  </div>
+
+                  <div class="avatar-status-pill">
+                    <span class="live-status-dot"></span>
+                    <span class="status-name">Sadman • Online</span>
+                  </div>
+                </div>
+
+                <!-- Floating Glass Feature Pills -->
+                <div class="float-chip chip-top-discord">
+                  <div class="chip-icon teamfs-chip-icon">
+                    <img src="assets/team-fs.jpg" alt="TEAM FS Logo" class="mini-avatar-chip-img" width="36" height="36" />
+                  </div>
+                  <div class="chip-text">
+                    <span class="chip-title">TEAM FS</span>
+                    <span class="chip-sub">Co-Founder</span>
+                  </div>
+                </div>
+
+                <div class="float-chip chip-bottom-web">
+                  <div class="chip-icon web-icon-bg"><i class="fa-solid fa-code"></i></div>
+                  <div class="chip-text">
+                    <span class="chip-title">Website Developer</span>
+                    <span class="chip-sub">Glassy &amp; Ultra Fast</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Bottom Accent Corner Circle -->
+        <div class="bottom-accent-circle" aria-hidden="true"></div>
+
+        <!-- ==================== ABOUT SECTION ==================== -->
+        <section class="content-section" id="about" aria-labelledby="about-heading">
+          <div class="section-badge-wrap">
+            <span class="section-pill-tag">About Me</span>
+          </div>
+          <h2 id="about-heading" class="section-title">Architecting Digital Experiences That Elevate Your Brand</h2>
+          <p class="section-desc">
+            With over 5 years of focused experience, I bridge the gap between custom Discord community automation and cutting-edge web design.
+          </p>
+
+          <div class="about-grid-layout">
+            <div class="glass-card about-story-card">
+              <h3 class="card-title">Who is Sadman?</h3>
+              <p>
+                I am a dedicated <strong>Discord Developer</strong> and <strong>Website Developer</strong>. I build custom Discord bots with rich interactions, set up bulletproof server infrastructures with automated moderation, and construct lightning-fast modern websites that combine sleek aesthetics with seamless usability.
+              </p>
+              <p>
+                Every project I take on is designed for longevity, high performance, and visual elegance. From Discord communities with 50,000+ members to business landing pages, my code is clean, robust, and accessible.
+              </p>
+
+              <div class="about-key-highlights">
+                <div class="highlight-item">
+                  <div class="highlight-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                  <div>
+                    <strong>Anti-Raid &amp; Bot Security</strong>
+                    <p>Securing Discord servers against exploits, raids, and permissions leaks.</p>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <div class="highlight-icon"><i class="fa-solid fa-bolt"></i></div>
+                  <div>
+                    <strong>Blazing Fast Performance</strong>
+                    <p>Zero-bloat HTML5, modern CSS layouts, and optimized assets.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Community Roles & Organizations Showcase (Replaces placeholder stats) -->
+            <div class="org-experience-container" aria-label="Staff & Community Experience">
+              <h4 class="org-container-title"><i class="fa-solid fa-id-badge" aria-hidden="true"></i> Community &amp; Staff Roles</h4>
+              
+              <!-- TEAM FS -->
+              <div class="glass-card org-item-card org-active">
+                <div class="org-badge-logo">
+                  <img src="assets/team-fs.jpg" alt="TEAM FS Logo" class="org-logo-img" width="56" height="56" />
+                </div>
+                <div class="org-item-details">
+                  <div class="org-header-row">
+                    <span class="org-name">TEAM FS</span>
+                    <span class="status-pill pill-active"><span class="dot-green"></span> Active</span>
+                  </div>
+                  <p class="org-role-line">Working in TEAM FS as a <strong>Co-Founder</strong></p>
+                  <a href="https://discord.gg/EbgRzpbsj3" target="_blank" rel="noopener noreferrer" class="link-teamfs-server" title="Join Official Team FS Discord Server">
+                    <i class="fa-brands fa-discord" aria-hidden="true"></i>
+                    <span>Official Team FS Discord Server</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square arrow-icon" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Tox Tweaks -->
+              <div class="glass-card org-item-card org-retired">
+                <div class="org-badge-logo">
+                  <img src="assets/tox-tweaks.jpg" alt="Tox Tweaks Logo" class="org-logo-img" width="56" height="56" />
+                </div>
+                <div class="org-item-details">
+                  <div class="org-header-row">
+                    <span class="org-name">Tox Tweaks</span>
+                    <span class="status-pill pill-retired">Retired</span>
+                  </div>
+                  <p class="org-role-line">Worked in Tox Tweaks as a <strong>Jr Helper (Retired)</strong></p>
+                </div>
+              </div>
+
+              <!-- Floppy Network -->
+              <div class="glass-card org-item-card org-retired">
+                <div class="org-badge-logo">
+                  <img src="assets/floppy-network.jpg" alt="Floppy Network Logo" class="org-logo-img" width="56" height="56" />
+                </div>
+                <div class="org-item-details">
+                  <div class="org-header-row">
+                    <span class="org-name">Floppy Network</span>
+                    <span class="status-pill pill-retired">Retired</span>
+                  </div>
+                  <p class="org-role-line"><strong>Trial Staff</strong> in Floppy Network (Retired)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== SERVICES SECTION ==================== -->
+        <section class="content-section" id="services" aria-labelledby="services-heading">
+          <div class="section-badge-wrap">
+            <span class="section-pill-tag">Services</span>
+          </div>
+          <h2 id="services-heading" class="section-title">Specialized Solutions for Creators &amp; Businesses</h2>
+          <p class="section-desc">
+            Tailored development packages designed to help you stand out and scale effortlessly.
+          </p>
+
+          <div class="services-cards-grid">
+            
+            <article class="glass-card service-card">
+              <div class="service-icon-box purple-glow">
+                <i class="fa-brands fa-discord" aria-hidden="true"></i>
+              </div>
+              <h3 class="service-heading">Custom Discord Bot Development</h3>
+              <p class="service-text">
+                Custom bots built with modern slash commands, API integrations, leveling systems, verification screening, ticketing, and custom embed builders.
+              </p>
+              <ul class="service-feature-list">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> 24/7 Cloud Hosting Ready</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Interactive Buttons &amp; Modals</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Database Storage &amp; Logging</li>
+              </ul>
+            </article>
+
+            <article class="glass-card service-card featured-glow">
+              <div class="featured-service-pill">Flagship</div>
+              <div class="service-icon-box blue-glow">
+                <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+              </div>
+              <h3 class="service-heading">Modern Website Development</h3>
+              <p class="service-text">
+                Custom one-page portfolios, landing pages, and business showcases crafted with semantic HTML5, modern glassy CSS, and responsive Vanilla JS.
+              </p>
+              <ul class="service-feature-list">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> 100% Mobile &amp; Tablet Friendly</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> SEO &amp; Rich Schema Markup</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Glassmorphic &amp; Dark Aesthetics</li>
+              </ul>
+            </article>
+
+            <article class="glass-card service-card">
+              <div class="service-icon-box cyan-glow">
+                <i class="fa-solid fa-server" aria-hidden="true"></i>
+              </div>
+              <h3 class="service-heading">Discord Server Architecture &amp; Security</h3>
+              <p class="service-text">
+                Complete server construction from scratch or total revamp. Strict role hierarchy, anti-nuke defenses, welcoming onboarding, and aesthetic layouts.
+              </p>
+              <ul class="service-feature-list">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Raid Shielding &amp; Auto-Mod</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Clean Aesthetic Channel Emojis</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Staff Workflow &amp; Ticket Logs</li>
+              </ul>
+            </article>
+
+          </div>
+        </section>
+
+        <!-- ==================== SKILLS SECTION ==================== -->
+        <section class="content-section" id="skills" aria-labelledby="skills-heading">
+          <div class="section-badge-wrap">
+            <span class="section-pill-tag">Skills &amp; Expertise</span>
+          </div>
+          <h2 id="skills-heading" class="section-title">Skills &amp; Specialized Knowledge</h2>
+          <p class="section-desc">
+            Hands-on expertise across Discord server management, community moderation, and modern web design.
+          </p>
+
+          <div class="skills-category-grid">
+            <div class="glass-card skill-group">
+              <h3 class="group-title"><i class="fa-solid fa-code"></i> Frontend &amp; Web Design</h3>
+              <div class="tech-pills-row">
+                <span class="tech-chip"><i class="fa-solid fa-wand-magic-sparkles"></i> Glassmorphism UI</span>
+                <span class="tech-chip"><i class="fa-solid fa-mobile-screen"></i> Responsive Web Design</span>
+              </div>
+            </div>
+
+            <div class="glass-card skill-group">
+              <h3 class="group-title"><i class="fa-brands fa-discord"></i> Discord &amp; Community Management</h3>
+              <div class="tech-pills-row">
+                <span class="tech-chip highlight-chip"><i class="fa-brands fa-discord"></i> Professional Discord Server Manager</span>
+                <span class="tech-chip highlight-chip"><i class="fa-solid fa-shield-halved"></i> Moderation Knowledge</span>
+                <span class="tech-chip highlight-chip"><i class="fa-solid fa-user-check"></i> Active Member</span>
+                <span class="tech-chip"><i class="fa-solid fa-network-wired"></i> Discord API / Gateway</span>
+                <span class="tech-chip"><i class="fa-solid fa-shield-virus"></i> Anti-Nuke &amp; Webhooks</span>
+                <span class="tech-chip"><i class="fa-solid fa-ticket"></i> Ticket Tool Automation</span>
+                <span class="tech-chip"><i class="fa-solid fa-database"></i> JSON / SQLite Databases</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ==================== PORTFOLIO SECTION ==================== -->
+        <section class="content-section" id="portfolio" aria-labelledby="portfolio-heading">
+          <div class="section-badge-wrap">
+            <span class="section-pill-tag">Portfolio</span>
+          </div>
+          <h2 id="portfolio-heading" class="section-title">Selected Projects &amp; Deployments</h2>
+          <p class="section-desc">
+            Explore live builds across Discord bots, high-capacity servers, and modern web applications.
+          </p>
+
+          <!-- Interactive Filter Tabs -->
+          <div class="portfolio-filter-row" role="tablist" aria-label="Project Categories">
+            <button class="filter-tab active" data-filter="all" role="tab" aria-selected="true">All Works</button>
+            <button class="filter-tab" data-filter="orgs" role="tab" aria-selected="false">Organizations &amp; Experience</button>
+            <button class="filter-tab" data-filter="web" role="tab" aria-selected="false">Web Development</button>
+          </div>
+
+          <div class="portfolio-cards-container" id="projectContainer">
+            
+            <!-- Project 1: TEAM FS -->
+            <article class="glass-card project-box" data-cat="orgs">
+              <div class="project-thumbnail thumb-with-img">
+                <img src="assets/team-fs.jpg" alt="TEAM FS Official Logo" class="project-img-cover" />
+                <span class="category-badge active-badge"><i class="fa-solid fa-crown"></i> Co-Founder</span>
+              </div>
+              <div class="project-details">
+                <span class="sub-label">Leadership &amp; Community</span>
+                <h3 class="project-headline">TEAM FS Organization</h3>
+                <p class="project-summary">
+                  Working in TEAM FS as a Co-Founder, leading community operations, server infrastructure, and brand developments.
+                </p>
+                <div class="project-action-row">
+                  <a href="https://discord.gg/EbgRzpbsj3" target="_blank" rel="noopener noreferrer" class="btn-card-server-link" title="Join Official Team FS Discord Server">
+                    <i class="fa-brands fa-discord" aria-hidden="true"></i> Join Team FS Discord
+                  </a>
+                </div>
+                <div class="project-tag-list">
+                  <span>Co-Founder</span>
+                  <span>Community Lead</span>
+                  <span>TEAM FS</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: Web Development -->
+            <article class="glass-card project-box" data-cat="web">
+              <div class="project-thumbnail web-thumb-1">
+                <span class="category-badge"><i class="fa-solid fa-code"></i> Web Design</span>
+                <i class="fa-solid fa-laptop-code thumb-watermark" aria-hidden="true"></i>
+              </div>
+              <div class="project-details">
+                <span class="sub-label">Creative Development</span>
+                <h3 class="project-headline">Modern Glassy Web Applications</h3>
+                <p class="project-summary">
+                  High-performance black and glassy websites featuring smooth micro-animations, accessible navigation, and 100/100 Lighthouse performance.
+                </p>
+                <div class="project-tag-list">
+                  <span>HTML5</span>
+                  <span>Glassmorphism</span>
+                  <span>Vanilla JS</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: Tox Tweaks & Floppy Network -->
+            <article class="glass-card project-box" data-cat="orgs">
+              <div class="project-thumbnail split-staff-thumb">
+                <div class="split-logo-half">
+                  <img src="assets/tox-tweaks.jpg" alt="Tox Tweaks Logo" class="split-img" />
+                </div>
+                <div class="split-logo-half">
+                  <img src="assets/floppy-network.jpg" alt="Floppy Network Logo" class="split-img" />
+                </div>
+                <span class="category-badge retired-badge"><i class="fa-solid fa-shield"></i> Staff Alumni</span>
+              </div>
+              <div class="project-details">
+                <span class="sub-label">Staff Experience (Retired)</span>
+                <h3 class="project-headline">Tox Tweaks &amp; Floppy Network</h3>
+                <p class="project-summary">
+                  Proven track record in community moderation and member support. Worked as Jr Helper in Tox Tweaks and served as Trial Staff in Floppy Network.
+                </p>
+                <div class="project-tag-list">
+                  <span>Jr Helper (Retired)</span>
+                  <span>Trial Staff (Retired)</span>
+                  <span>Support</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </section>
+
+        <!-- ==================== CONTACT SECTION ==================== -->
+        <section class="content-section" id="contact" aria-labelledby="contact-heading">
+          <div class="section-badge-wrap">
+            <span class="section-pill-tag">Let's Connect</span>
+          </div>
+          <h2 id="contact-heading" class="section-title">Ready to Start Your Next Project?</h2>
+          <p class="section-desc">
+            Currently <strong>Finding Discord client and web client</strong>. Reach out directly on Discord or send me a quick inquiry to discuss your custom project.
+          </p>
+
+          <div class="contact-card-layout">
+            
+            <!-- Direct Discord Card -->
+            <div class="glass-card direct-connect-card">
+              <h3 class="connect-title">Direct Discord Outreach</h3>
+              <p class="connect-desc">
+                For the fastest response time, add or direct message me directly on Discord. I typically reply within 1–2 hours.
+              </p>
+
+              <div class="discord-id-pill">
+                <div class="discord-icon-frame">
+                  <i class="fa-brands fa-discord" aria-hidden="true"></i>
+                </div>
+                <div class="discord-id-info">
+                  <div class="id-row">
+                    <span class="id-meta">Name:</span>
+                    <strong class="id-name-val">TIXER</strong>
+                  </div>
+                  <div class="id-row">
+                    <span class="id-meta">Username:</span>
+                    <strong id="discordHandleTag" class="id-username-val">ygear</strong>
+                  </div>
+                </div>
+                <button class="btn-copy-discord" id="copyDiscordButton" aria-label="Copy Discord username to clipboard" title="Copy username ygear">
+                  <i class="fa-regular fa-copy" aria-hidden="true"></i>
+                  <span>Copy</span>
+                </button>
+              </div>
+
+              <!-- Official Team FS Discord Server Button -->
+              <a href="https://discord.gg/EbgRzpbsj3" target="_blank" rel="noopener noreferrer" class="btn-teamfs-server-join">
+                <div class="server-join-icon">
+                  <i class="fa-brands fa-discord" aria-hidden="true"></i>
+                </div>
+                <div class="server-join-text">
+                  <span class="join-title">Official Team FS Discord Server</span>
+                  <span class="join-sub">Click to join our growing community</span>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square join-arrow" aria-hidden="true"></i>
+              </a>
+
+              <!-- Social Channels Grid -->
+              <div class="social-channels-panel">
+                <span class="social-channels-title">Official Social Media:</span>
+                <div class="social-channels-grid">
+                  <a href="https://www.youtube.com/@tixerBro" target="_blank" rel="noopener noreferrer" class="social-channel-box yt-box" title="YouTube @tixerBro">
+                    <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                    <div>
+                      <strong>YouTube</strong>
+                      <span>@tixerBro</span>
+                    </div>
+                  </a>
+                  <a href="https://www.facebook.com/sadman.tixer" target="_blank" rel="noopener noreferrer" class="social-channel-box fb-box" title="Facebook sadman.tixer">
+                    <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                    <div>
+                      <strong>Facebook</strong>
+                      <span>sadman.tixer</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="response-pledge">
+                <i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i>
+                <span>Available for freelance contracts, ongoing maintenance, and full builds.</span>
+              </div>
+            </div>
+
+            <!-- Interactive Contact Form -->
+            <div class="glass-card contact-form-card">
+              <form id="portfolioContactForm" novalidate>
+                <div class="form-grid-row">
+                  <div class="input-wrap">
+                    <label for="clientName">Your Name <span class="req">*</span></label>
+                    <input type="text" id="clientName" name="name" placeholder="e.g. John Doe" required />
+                  </div>
+                  <div class="input-wrap">
+                    <label for="clientContact">Discord or Email <span class="req">*</span></label>
+                    <input type="text" id="clientContact" name="contact" placeholder="e.g. username#0000 or email@domain.com" required />
+                  </div>
+                </div>
+
+                <div class="input-wrap">
+                  <label for="projectCategory">Project Type</label>
+                  <select id="projectCategory" name="category">
+                    <option value="discord-bot">Discord Bot Development</option>
+                    <option value="discord-server">Discord Server Architecture &amp; Security</option>
+                    <option value="website">Custom Website Development</option>
+                    <option value="full-package">Full Package (Discord + Website)</option>
+                    <option value="other">Consultation / Other</option>
+                  </select>
+                </div>
+
+                <div class="input-wrap">
+                  <label for="projectMessage">Project Description <span class="req">*</span></label>
+                  <textarea id="projectMessage" name="message" rows="4" placeholder="Briefly describe what you're looking to build..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-submit-project">
+                  <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                  <span>Send Inquiry</span>
+                </button>
+              </form>
+
+              <!-- Feedback Toast -->
+              <div id="contactToast" class="contact-feedback-toast" role="alert" aria-live="polite">
+                <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                <span>Thank you! Your message has been received. I will reply shortly.</span>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+
+      <!-- Semantic Footer -->
+      <footer class="site-footer" role="contentinfo">
+        <div class="footer-top-row">
+          <div class="footer-brand">
+            <a href="#home" class="logo">
+              <span class="logo-orb"></span>
+              <span class="logo-name">Sadman<span>.dev</span></span>
+            </a>
+            <p class="footer-tagline">
+              Professional Discord Developer &amp; Website Developer.
+            </p>
+          </div>
+
+          <div class="footer-social-icons">
+            <a href="https://discord.gg/EbgRzpbsj3" target="_blank" rel="noopener noreferrer" class="footer-social-circle discord" title="Join Official Team FS Discord Server">
+              <i class="fa-brands fa-discord" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.youtube.com/@tixerBro" target="_blank" rel="noopener noreferrer" class="footer-social-circle youtube" title="YouTube Channel (@tixerBro)">
+              <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/sadman.tixer" target="_blank" rel="noopener noreferrer" class="footer-social-circle facebook" title="Facebook Profile (sadman.tixer)">
+              <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="footer-nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom-row">
+          <p>&copy; <span id="currentYearSpan"></span> Sadman. All rights reserved.</p>
+          <a href="#home" class="back-to-top" aria-label="Back to top of page">
+            <span>Top</span>
+            <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+          </a>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
